@@ -56,7 +56,7 @@ object Function {
   def test = {
     val pair: Pair2[Person] = new Pair2(new Person("Test", 12), new Person("Test", 12))
     // Illegal
-    pair.makeFriend(new Student(12, "Coin", 12))
-    pair.makeFriend(new Person("Coin", 12))
+    //pair.makeFriend(new Student(12, "Coin", 12))
+    //pair.makeFriend(new Person("Coin", 12))
   }
 }
