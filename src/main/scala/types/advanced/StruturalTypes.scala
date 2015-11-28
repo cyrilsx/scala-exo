@@ -24,7 +24,7 @@ class StruturalTypes {
 
   def main(args: Array[String]) {
     val toto: Toto = new Toto
-      toto appendLines Seq("fdjfkd", "ewew")
+     // toto appendLines Seq("fdjfkd", "ewew")
   }
 
 
